@@ -2,7 +2,8 @@
 
 const typeHash = {
   primary: 'btn-primary',
-  secondary: 'btn-secondary'
+  secondary: 'btn-secondary',
+  danger: 'btn-danger'
 };
 
 const scopedStyle = `
@@ -41,6 +42,15 @@ const scopedStyle = `
     .btn-primary:hover {
       cursor: pointer;
       background: rgb(0,3,255);
+    }
+
+    .btn-danger {
+      background: rgb(216 14 14);
+    }
+
+    .btn-danger:hover {
+      cursor: pointer;
+      background: rgb(236 15 15);
     }
   </style>
 `;
