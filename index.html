@@ -30,7 +30,14 @@
         loadingtext="Fetching"
         id="danger"
       >
-        Secondary
+        Danger
+      </button-component>
+      <button-component
+        type="success"
+        loadingtext="Fetching"
+        id="success"
+      >
+        Success
       </button-component>
     </div>
     
@@ -38,10 +45,12 @@
       const primaryButtonCustomElement = document.querySelector('#primary');
       const secondaryButtonCustomElement = document.querySelector('#secondary');
       const dangerButtonCustomElement = document.querySelector('#danger');
+      const successButtonCustomElement = document.querySelector('#success');
 
       addListenerToButton(primaryButtonCustomElement);
       addListenerToButton(secondaryButtonCustomElement);
       addListenerToButton(dangerButtonCustomElement);
+      addListenerToButton(successButtonCustomElement);
 
       function addListenerToButton(buttonCustomElement) {
         buttonCustomElement.addEventListener('zpClick', () => {
