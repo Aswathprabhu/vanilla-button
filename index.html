@@ -39,6 +39,13 @@
       >
         Success
       </button-component>
+      <button-component
+        type="warning"
+        loadingtext="Fetching"
+        id="warning"
+      >
+        Warning
+      </button-component>
     </div>
     
     <script>
@@ -46,11 +53,14 @@
       const secondaryButtonCustomElement = document.querySelector('#secondary');
       const dangerButtonCustomElement = document.querySelector('#danger');
       const successButtonCustomElement = document.querySelector('#success');
+      const warningButtonCustomElement = document.querySelector('#warning');
+
 
       addListenerToButton(primaryButtonCustomElement);
       addListenerToButton(secondaryButtonCustomElement);
       addListenerToButton(dangerButtonCustomElement);
       addListenerToButton(successButtonCustomElement);
+      addListenerToButton(warningButtonCustomElement);
 
       function addListenerToButton(buttonCustomElement) {
         buttonCustomElement.addEventListener('zpClick', () => {
