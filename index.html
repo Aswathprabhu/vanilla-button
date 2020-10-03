@@ -6,23 +6,44 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script defer type="text/javascript" src="index.js"></script>
 </head>
-<body style="display: flex; justify-content: center; align-items: center;">
-    <button-component
-      type="primary"
-      loadingtext="Fetching"
-    >
-      Fetch Users
-    </button-component>
+<body>
+    <h1 style="text-align: center;">
+      Click to fetch results
+    </h1>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <button-component
+        type="primary"
+        loadingtext="Fetching"
+        id="primary"
+      >
+        Primary
+      </button-component>
+      <button-component
+        type="secondary"
+        loadingtext="Fetching"
+        id="secondary"
+      >
+        Secondary
+      </button-component>
+    </div>
+    
     <script>
-      const buttonCustomElement = document.querySelector('button-component');
-      buttonCustomElement.addEventListener('zpClick', () => {
-        buttonCustomElement.disabled = true;
-        return fetch('https://jsonplaceholder.typicode.com/users')
-          .then(response => response.json())
-          .then(json => console.log(json))
-          .then(() => buttonCustomElement.disabled = false)
-          .then(() => alert('Check console'));
-      });
+      const primaryButtonCustomElement = document.querySelector('#primary');
+      const secondaryButtonCustomElement = document.querySelector('#secondary');
+
+      addListenerToButton(primaryButtonCustomElement);
+      addListenerToButton(secondaryButtonCustomElement);
+
+      function addListenerToButton(buttonCustomElement) {
+        buttonCustomElement.addEventListener('zpClick', () => {
+          buttonCustomElement.disabled = true;
+          return fetch('https://jsonplaceholder.typicode.com/users')
+            .then(response => response.json())
+            .then(json => console.log(json))
+            .then(() => buttonCustomElement.disabled = false)
+            .then(() => alert('Check console'));
+        });
+      }
     </script>
 </body>
 </html>

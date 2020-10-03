@@ -1,7 +1,8 @@
 'use strict';
 
 const typeHash = {
-  primary: 'btn-primary'
+  primary: 'btn-primary',
+  secondary: 'btn-secondary'
 };
 
 const scopedStyle = `
@@ -25,6 +26,18 @@ const scopedStyle = `
     .btn-primary {
       background: rgb(9, 20, 172);
     }
+
+    .btn-secondary {
+      background: rgb(239 239 239);
+      color: black;
+    }
+
+    .btn-secondary:hover {
+      cursor: pointer;
+      background: rgb(175 175 179);
+      color: black;
+    }
+
     .btn-primary:hover {
       cursor: pointer;
       background: rgb(0,3,255);
