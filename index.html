@@ -25,14 +25,23 @@
       >
         Secondary
       </button-component>
+      <button-component
+        type="danger"
+        loadingtext="Fetching"
+        id="danger"
+      >
+        Secondary
+      </button-component>
     </div>
     
     <script>
       const primaryButtonCustomElement = document.querySelector('#primary');
       const secondaryButtonCustomElement = document.querySelector('#secondary');
+      const dangerButtonCustomElement = document.querySelector('#danger');
 
       addListenerToButton(primaryButtonCustomElement);
       addListenerToButton(secondaryButtonCustomElement);
+      addListenerToButton(dangerButtonCustomElement);
 
       function addListenerToButton(buttonCustomElement) {
         buttonCustomElement.addEventListener('zpClick', () => {
