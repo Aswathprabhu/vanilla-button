@@ -21,6 +21,12 @@ const scopedStyle = `
       font-weight: 500;
       border-radius: 7px;
       outline: none;
+      border: none;
+      transition: transform 0.3s ease-in-out;
+    }
+    .btn:hover {
+      box-shadow: 0 3px 10px 0 #aaa;
+      transform: translateY(-3px);
     }
     
     .btn[disabled]{
