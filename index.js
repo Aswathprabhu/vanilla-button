@@ -28,59 +28,59 @@ const scopedStyle = `
     }
     
     .btn-primary {
-      background: rgb(9, 20, 172);
+      background: #0914ac;
     }
 
     .btn-secondary {
-      background: rgb(239 239 239);
+      background: #efefef;
       color: black;
     }
 
     .btn-secondary:hover {
       cursor: pointer;
-      background: rgb(175 175 179);
+      background: #afafb3;
       color: black;
     }
 
     .btn-primary:hover {
       cursor: pointer;
-      background: rgb(0,3,255);
+      background: #0003ff;
     }
 
     .btn-danger {
-      background: rgb(216 14 14);
+      background: #d80e0e;
     }
 
     .btn-danger:hover {
       cursor: pointer;
-      background: rgb(236 15 15);
+      background: #ff3737;
     }
 
     .btn-success  {
-      background: rgb(49 148 48);
+      background: #329430;
     }
 
     .btn-success:hover {
       cursor: pointer;
-      background: rgb(46 224 44);
+      background: #2ee02c;
     }
 
     .btn-warning {
-      background: rgb(224 163 26);
+      background: #e0a31a;
     }
 
     .btn-warning:hover {
       cursor: pointer;
-      background: rgb(255 176 0);
+      background: #ffae00;
     }
 
     .btn-info {
-      background: rgb(0, 193, 213);
+      background: #00c0d5;
     }
 
     .btn-info:hover {
       cursor: pointer;
-      background: rgb(0, 231, 255);
+      background: #00e7ff;
     }
   </style>
 `;
