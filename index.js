@@ -81,7 +81,7 @@ const scopedStyle = `
     }
 
     .btn-info {
-      background: #00c0d5;
+      background: #17a2b8;
     }
 
     .btn-info:hover {
