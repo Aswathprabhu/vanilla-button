@@ -63,7 +63,7 @@ const scopedStyle = `
     }
 
     .btn-success  {
-      background: #329430;
+      background: #28a745;
     }
 
     .btn-success:hover {
