@@ -38,8 +38,8 @@ const scopedStyle = `
     }
 
     .btn-secondary {
-      background: #efefef;
-      color: black;
+      background: #6c757d;
+      color: white;
     }
 
     .btn-secondary:hover {
