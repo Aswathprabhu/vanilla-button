@@ -54,12 +54,12 @@ const scopedStyle = `
     }
 
     .btn-danger {
-      background: #dc3545;
+      background: #d80e0f;
     }
 
     .btn-danger:hover {
       cursor: pointer;
-      background: #ff3737;
+      background: #ff3738;
     }
 
     .btn-success  {
