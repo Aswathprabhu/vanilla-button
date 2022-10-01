@@ -54,7 +54,7 @@ const scopedStyle = `
     }
 
     .btn-danger {
-      background: #d80e0e;
+      background: #dc3545;
     }
 
     .btn-danger:hover {
@@ -63,7 +63,7 @@ const scopedStyle = `
     }
 
     .btn-success  {
-      background: #329430;
+      background: #28a745;
     }
 
     .btn-success:hover {
@@ -81,7 +81,7 @@ const scopedStyle = `
     }
 
     .btn-info {
-      background: #00c0d5;
+      background: #17a2b8;
     }
 
     .btn-info:hover {
