@@ -34,23 +34,23 @@ const scopedStyle = `
     }
     
     .btn-primary {
-      background: #0914ac;
+      background: #0914ad;
     }
 
     .btn-secondary {
-      background: #efefef;
+      background: #efefee;
       color: black;
     }
 
     .btn-secondary:hover {
       cursor: pointer;
-      background: #afafb3;
+      background: #afafb4;
       color: black;
     }
 
     .btn-primary:hover {
       cursor: pointer;
-      background: #0003ff;
+      background: #0003fe;
     }
 
     .btn-danger {
@@ -63,7 +63,7 @@ const scopedStyle = `
     }
 
     .btn-success  {
-      background: #329430;
+      background: #28a745;
     }
 
     .btn-success:hover {
@@ -81,7 +81,7 @@ const scopedStyle = `
     }
 
     .btn-info {
-      background: #00c0d5;
+      background: #17a2b8;
     }
 
     .btn-info:hover {
