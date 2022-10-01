@@ -72,12 +72,12 @@ const scopedStyle = `
     }
 
     .btn-warning {
-      background: #e0a31a;
+      background: #e0a31b;
     }
 
     .btn-warning:hover {
       cursor: pointer;
-      background: #ffae00;
+      background: #ffae01;
     }
 
     .btn-info {
