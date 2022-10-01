@@ -34,7 +34,7 @@ const scopedStyle = `
     }
     
     .btn-primary {
-      background: #0914ac;
+      background: #0914ad;
     }
 
     .btn-secondary {
@@ -50,7 +50,7 @@ const scopedStyle = `
 
     .btn-primary:hover {
       cursor: pointer;
-      background: #0003ff;
+      background: #0003fe;
     }
 
     .btn-danger {
